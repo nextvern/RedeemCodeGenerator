@@ -1,8 +1,8 @@
 {
-  "name": "coupon_system",
+  "name": "redeem_code_generator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
