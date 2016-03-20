@@ -1,1 +1,1 @@
-node --harmony_destructuring app.js
+node --harmony app.js
