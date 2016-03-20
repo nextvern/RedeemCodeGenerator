@@ -1,15 +1,15 @@
 # RedeemCodeGenerator
-## 설명
-의사 랜덤 함수를 활용한 리딤 코드 제네레이터
+## Description
+의사 랜덤 함수(Pseudo Random Number Generator)를 활용한 리딤 코드 제네레이터
 
 * 12자리의 리딤코드를 생성. XXXX-XXXX-XXXX
 * 리딤코드는 숫자 + 영문 (0~9, A~Z) 36자리
 * 리딤코드에서 리딤번호, 리딤카운트를 구할 수 있음.
 * 리딤번호 범위 : 1 ~ 46,656개
-* 리딤카운트 범위 : 1 ~ 60,466,176
-* 사용된 PRNG : https://github.com/skratchdot/random-seed
+* 리딤카운트 범위 : 1 ~ 60,466,176개
+* 사용된 의사 랜덤 함수(Pseudo Random Number Generator) : https://github.com/skratchdot/random-seed
 
-## 시작하기
+## Getting Started
 
 * ES 2015를 사용해서 작업이 되어 v5.0이상의 node를 필요로 합니다.
 
@@ -48,5 +48,9 @@ redeemCode.validate('64U5855NFD5H'); // { validate: true, srl: 5, cnt: 1 }
 [#] node --harmony app.js
 ```
 
-## 라이센스
+## Features
+* 리딤코드 자리수 추가 : 16, 20, 24
+* Mapping 테이블 생성코드 추가
+
+## License
 The MIT License (MIT) Copyright (c) 2016 nextvern
